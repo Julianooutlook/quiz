@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo STACK Programação</title>
+    <script src="/index.js" defer ></script>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div>
+            <div class="container-header">
+                <h1>Quiz Interativo Programação</h1>
+                <p>Teste seus conhecimentos em Programação!</p>
+                
+                
+                <button id="start-quiz"><img src="/img/quiz.avif"><span id="span-iniciar">Iniciar</span></button>
+                
+
+            </div>
+        </div>
+    </header>
+
+    <section id="section-answers-questions" style="display: none;">
+        <p id="timer">Tempo: <span id="timer-seconds">20</span>s</p>
+        <div id="container-quiz-form-question">
+
+            <div class="container-form-questions">
+                <form action="" id="quiz-form-questions">
+
+                    <span id="span-question"></span>
+
+                    <button id="button-option1" class="button-option" type="button"></button>
+                    <button id="button-option2" class="button-option" type="button"></button>
+                    <button id="button-option3" class="button-option" type="button"></button>
+                    <button id="button-option4" class="button-option" type="button"></button>
+
+                </form>
+                <button id="next-button">Próxima Pergunta</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section-result">
+        <div id="result-container" style="display: none;">
+            <div id="feedback-container"></div>
+            <h2>Resultado do Quiz</h2>
+            <p id="score-text"></p>
+            <a href="index.html">
+                <button>Refazer Quiz</button>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
