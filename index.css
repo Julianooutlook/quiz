@@ -183,3 +183,27 @@ header {
   background-color: #f44336;
   color: white;
 }
+
+@media (min-width: 375px) {
+  .container-header {
+    h1 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1em;
+      text-decoration: none;
+    }
+
+    #start-quiz img {
+      width: 300px;
+      height: 300px;
+      margin-left: 12px;
+    }
+
+    #span-iniciar {
+      top: 45%;
+    }
+  }
+  
+}
