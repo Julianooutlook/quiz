@@ -21,9 +21,10 @@ header {
 }
 
 .container-header h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   margin-bottom: 10px;
   color: #18120a;
+
 }
 
 .container-header p {
@@ -32,6 +33,7 @@ header {
   font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 10px;
+  margin-bottom: 6rem;
 }
 
 .container-header button img {
@@ -43,20 +45,20 @@ header {
 }
 
 #span-iniciar {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  /* bottom: 0; */
   font-size: 1.5em;
   font-weight: bold;
-  position: absolute;
-  top: 30%;
-  left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Bungee Tint", sans-serif;
   color: #18120a;
 }
 
 #span-iniciar:hover {
-  background-color: #adea7f;
-  padding: 10px 20px;
   border-radius: 20px;
+
 }
 
 .container-header button {
